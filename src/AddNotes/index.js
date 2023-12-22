@@ -39,15 +39,15 @@ console.log('Error:',error)
 <form className="form" onSubmit={handleSubmit}> 
                 <div className="form-group">
                     <label htmlFor="name">Title</label>
-                    <input id='name' className="form-control" type='text' value={noteDetails.name} onChange={e => handleInput({title: e.target.value})} />
+                    <input id='name' className="form-control" type='text' value={noteDetails.title} onChange={e => handleInput({title: e.target.value})} />
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Subtitle</label>
-                    <input id='email' className="form-control" type='text' value={noteDetails.email} onChange={e => handleInput({subtitle: e.target.value})} />
+                    <input id='email' className="form-control" type='text' value={noteDetails.subtitle} onChange={e => handleInput({subtitle: e.target.value})} />
                 </div>
                 <div className="form-group">
                     <label htmlFor="address">Contant</label>
-                    <input id='address' className="form-control" type='text' value={noteDetails.address} onChange={e => handleInput({contant: e.target.value})} />
+                    <input id='address' className="form-control" type='text' value={noteDetails.contant} onChange={e => handleInput({contant: e.target.value})} />
                 </div>
 
                 <div className='form-group'>
