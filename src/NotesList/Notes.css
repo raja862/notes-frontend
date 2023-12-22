@@ -1,0 +1,28 @@
+.noteslist{
+    text-align: center;
+
+
+}
+.link{
+  color: rgb(205, 207, 241);
+}
+.cards{
+ 
+   
+    
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,140,138,0.38561362044817926) 0%, rgba(0,212,255,1) 100%);
+      
+}
+.flex-container{
+display: flex;
+flex-wrap: wrap;
+
+padding: 2px;
+margin: 10px;
+
+text-align: center;
+  
+  
+}
